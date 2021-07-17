@@ -9,13 +9,13 @@
 body {
     font-family: 'Roboto';
 }
+
 /* Encabezado */
 header {
     margin-top: -0.6%;
     background-color: #222222;
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
     align-items: center;
     padding: 1vw 0vw;
 }
@@ -45,13 +45,37 @@ nav li{
     margin-right: 3vw;
 }
 
-
+/* Pie de pagina */
 #primerPie {
-    background-color: #222;
-}   
+    width: 101%;
+    margin-bottom: -2vh;
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3vw 0vw;
+}
+#redes {
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 100;
+    margin-left: 3.5vw;
+}
+#contacto {
+    display: inline-flex;
+    margin-right: 5vw;
+}
+#contacto li {
+    padding: 0% 1vw;
+}
+/* Derechos reservados */
 #segundoPie {
     background-color: #C4C4C4;
+    font-size: 0.9rem;
     text-align: center;
+    position: absolute;
+    width: 100%;
+    padding: 0.8%;
 }
 
 
