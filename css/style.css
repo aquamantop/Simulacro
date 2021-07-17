@@ -45,6 +45,31 @@ nav li{
     margin-right: 3vw;
 }
 
+/* Sector principal */
+#principal {
+    background-image: url('../img/fondo.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30vh;
+}
+h3 {
+    color: white;
+    font-size: 3rem;
+}
+button {
+    border: none;
+    background-color: #D01418;
+    color: white;
+    padding: 1rem 3rem;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+}
+
+
 /* Pie de pagina */
 #primerPie {
     width: 101%;
@@ -77,8 +102,3 @@ nav li{
     width: 100%;
     padding: 0.8%;
 }
-
-
-
-
-
