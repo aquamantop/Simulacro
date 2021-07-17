@@ -77,15 +77,16 @@ button {
     flex-wrap: wrap;
 }
 .productos {
+    padding-top: 3vh;
     text-align: center;
     font-size: 1.8rem;
 }
 .card {
     border-radius: 2vh;
     background-color: white;
-    padding: 7vh 5vw;
+    padding: 7vh 5vw 6vh;
     margin: 0vw 2vw;
-    box-shadow: 0vh 2vh 5vh 0.1vh black;
+    box-shadow: 0vh 0.5vh 2vh 0.1vh black;
 }
 hr {
     position: relative;
@@ -108,11 +109,29 @@ article p {
     font-size: 0.6rem;
     color: #619D00;
 }
+/* Agregar transform para agrandar tarjetas */
 
 /* Productos estrellas */
-
-
-
+#estrellas {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.estelar {
+    margin: 0% 5vw;
+}
+.estelar img {
+    border-radius: 5%;
+}
+.estelar p {
+    position: relative;
+    text-align: right;
+    margin-right: 1vw;
+    bottom: 15vh;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
 
 /* Pie de pagina */
 #primerPie {
