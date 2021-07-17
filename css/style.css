@@ -8,6 +8,7 @@
 }
 body {
     font-family: 'Roboto';
+    background-color: #F3F3F3;
 }
 
 /* Encabezado */
@@ -68,6 +69,49 @@ button {
     border-radius: 0.5rem;
     font-size: 1.5rem;
 }
+
+/* Productos destacados */
+#destacados {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.productos {
+    text-align: center;
+    font-size: 1.8rem;
+}
+.card {
+    border-radius: 2vh;
+    background-color: white;
+    padding: 7vh 5vw;
+    margin: 0vw 2vw;
+    box-shadow: 0vh 2vh 5vh 0.1vh black;
+}
+hr {
+    position: relative;
+    opacity: 0.5;
+    width: 205%;
+    right: 5vw;
+}
+article p {
+    margin-left: -3vw;
+    margin-bottom: -0.8vh;
+    font-weight: 100;
+}
+.precio {
+    font-size: 1.2rem;
+}
+.cuotas {
+    font-size: 0.8rem;
+}
+.envio {
+    font-size: 0.6rem;
+    color: #619D00;
+}
+
+/* Productos estrellas */
+
+
 
 
 /* Pie de pagina */
