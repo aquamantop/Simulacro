@@ -85,7 +85,9 @@ button {
     background-color: white;
     padding: 7vh 5vw 6vh;
     margin: 0vw 2vw;
-    box-shadow: 0vh 0.5vh 2vh 0.1vh black;
+}
+.card:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 hr {
     position: relative;
@@ -116,8 +118,14 @@ article p {
     justify-content: center;
     flex-wrap: wrap;
 }
+.estelar:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
 .estelar {
     margin: 0% 5vw;
+}
+.estelar:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 .estelar img {
     border-radius: 5%;
@@ -166,13 +174,13 @@ article p {
 }
 
 /* reponsive */
-@media (max-width: 425px) {
+@media (max-width: 764px) {
     #principal {
         background-size: 170%;
     }
     h3 {
         font-size: 1.5rem;
-        margin-top: -25vh;
+        margin-top: -35vh;
     }
     button {
         font-size: 1rem;
@@ -196,6 +204,16 @@ article p {
         display: none;
     }
 }
+@media (min-width: 765px) {
+    #principal {
+        background-size: 170%;
+    }
+    h3 {
+        font-size: 1.5rem;
+        margin-top: -30vh;
+    }
+}
+
 @media (min-width: 1023px) {
     h3 {
         margin-top: -20%;
